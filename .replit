@@ -1,2 +1,2 @@
 language = "cpp"
-run = "clang++ -std=c++17 -Weverything -Wno-c++98-compat -Wno-missing-prototypes -Wno-padded -Wno-float-conversion -Wno-missing-noreturn main.cpp AttackItem.cpp Character.cpp DefensiveItem.cpp Dragon.cpp DragonSlayer.cpp Dwarf.cpp HelpfulItem.cpp Paladin.cpp Item.cpp Utility.cpp && ./a.out"
+run = "clang++ -std=c++17 -Weverything -Wno-c++98-compat -Wno-missing-prototypes -Wno-padded -Wno-float-conversion main.cpp AttackItem.cpp Character.cpp DefensiveItem.cpp Dragon.cpp DragonSlayer.cpp Dwarf.cpp HelpfulItem.cpp Paladin.cpp Item.cpp Utility.cpp && ./a.out"
