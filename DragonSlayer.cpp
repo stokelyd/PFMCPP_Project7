@@ -1,5 +1,6 @@
 #include "DragonSlayer.h"
 #include "Dragon.h"
+#include "Utility.h"
 
 #include <cassert>
 
@@ -38,7 +39,5 @@ void DragonSlayer::attack(Character& other)
 
 std::string DragonSlayer::getStats()
 {
-    std::string str = "temp stats string";
-
-    return str;
+    return getCharacterStats(this);
 }
