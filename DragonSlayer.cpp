@@ -4,8 +4,6 @@
 #include "AttackItem.h"
 #include <memory>
 
-#include <cassert>
-
 DragonSlayer::DragonSlayer(std::string name_, int hp_, int armor_) :
     Character(hp_, armor_, 4),
     name(name_)
@@ -25,7 +23,6 @@ void DragonSlayer::attack(Character& other)
     std::cout << name << " is attacking " << other.getName() << " !!" << std::endl;
     if( auto* dragon = dynamic_cast<Dragon*>(&other) )
     {
-        // assert(false);
         //DragonSlayers get a 10x boost when attacking dragons, from their attack item.
         //so they should USE their attack item before attacking the dragon... 
         //note that items are single-use only, so you need to reset it after use.  
