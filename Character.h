@@ -54,8 +54,6 @@ struct Character
     }
 
     void printStats();
-
-    void levelUpBonus( int& statToIncrement, std::unique_ptr<int>& initialValueOfStatToIncrement );
     
 protected:
     std::vector<std::unique_ptr<Item>> defensiveItems;
