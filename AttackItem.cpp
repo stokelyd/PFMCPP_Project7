@@ -1,7 +1,7 @@
 #include "AttackItem.h"
 #include "Utility.h"
 
-AttackItem::AttackItem() : Item("attack item", 5)
+AttackItem::AttackItem() : Item("attack item", 10)
 {   
 }
 
