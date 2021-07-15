@@ -6,7 +6,7 @@ Paladin::Paladin(std::string name_, int hp_, int armor_) :
     name(name_)
 {
     helpfulItems = makeHelpfulItems(3);
-    defensiveItems = makeDefensiveItems(1);
+    defensiveItems = makeDefensiveItems(7);
 }
 
 const std::string& Paladin::getName()
