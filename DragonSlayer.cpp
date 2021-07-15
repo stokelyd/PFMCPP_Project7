@@ -27,7 +27,8 @@ void DragonSlayer::attack(Character& other)
         //look in the Character class for how the other item types are reset after use.
         while( dragon->getHP() > 0 )
         {
-          dragon->takeDamage(attackDamage);
+            // useAttackItem(Character* character, Item* item)
+            dragon->takeDamage(attackDamage);
         }
     }
         
